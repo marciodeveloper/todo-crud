@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add basic styles for the container and heading */
+.container {
+    max-width: 80%;
+}
+
+/* Create styles for the task list itself */
+#tasks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
